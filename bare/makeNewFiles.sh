@@ -2,9 +2,9 @@
 #
 # $Id:$
 
-for f in `seq 11 20`
+for f in `seq 21 36`
 do
-	newfile=$(printf page$f.html $f)
+	newfile=$(printf links$f.html $f)
 	echo -e "Creating $newfile ...";
 	touch $newfile
 	revised >> $newfile
